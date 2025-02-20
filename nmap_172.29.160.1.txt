@@ -1,0 +1,21 @@
+# Nmap 7.94SVN scan initiated Thu Feb 13 21:42:23 2025 as: /usr/lib/nmap/nmap -A -Pn -p7680 -oN nmap_172.29.160.1.txt 172.29.160.1
+Nmap scan report for DESKTOP-FLPFFO2.mshome.net (172.29.160.1)
+Host is up (0.00030s latency).
+
+PORT     STATE SERVICE    VERSION
+7680/tcp open  pando-pub?
+MAC Address: 00:15:5D:98:E3:CD (Microsoft)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|2019 (89%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp3
+Aggressive OS guesses: Microsoft Windows XP SP3 (89%), Microsoft Windows Server 2019 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.30 ms DESKTOP-FLPFFO2.mshome.net (172.29.160.1)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 13 21:43:14 2025 -- 1 IP address (1 host up) scanned in 50.98 seconds
